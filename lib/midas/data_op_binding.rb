@@ -9,6 +9,13 @@ module Midas::DataOpBinding
       @obj = obj
     end
 
+    def ==(other)
+      @obj == other
+    end
+
+    def eql?(other)
+      @obj.eql? other
+    end
     #Allows us to add custom methods to the underlying class
     #We do it this way rather than open up the object itself
     #because some objects (e.g., Symbol objects) don't have the
