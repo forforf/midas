@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Dave M"]
   s.email       = ["dmarti21@gmail.com"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Bind custom data structure behavior to data elements rather than an underlying model.}
+  s.description = %q{Model Independent DAta Structure: By binding behavior to the data rather than the model, the behavior for that datastructure becoms portable across models. }
 
   s.rubyforge_project = "midas"
 
@@ -21,4 +21,5 @@ Gem::Specification.new do |s|
   # specify any dependencies here; for example:
   # s.add_development_dependency "rspec"
   # s.add_runtime_dependency "rest-client"
+  s.add_development_dependency "rspec", "~> 2.6"
 end
