@@ -1,0 +1,13 @@
+_rating_:{"stable":0, "useful":0, "caliber":1, "tidy":5 ,"tended": 1, "tests":0, "unique":1}
+---
+ratings:
+  stable: 0
+  useful: 0
+  caliber: 1
+  tidy: 5
+  tended: 1
+  tests: 0
+  unique: 1
+progress:
+  "inactive":
+    "never started"
